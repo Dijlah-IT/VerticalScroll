@@ -17,12 +17,13 @@ body {
 }
 
 .noUi-handle.noUi-handle-lower {
-  width: 25px !important;
+  width: 18px !important;
   aspect-ratio: 1;
   height: auto !important;
   border-radius: 100%;
   box-shadow: none;
-  inset: auto auto -12.5px -13.5px;
+  bottom: -9px !important;
+  right: -7.5px !important;
   cursor: pointer;
 }
 
@@ -38,7 +39,7 @@ body {
   justify-content: center;
   border-radius: 100rem;
   font-size: 12px;
-  top: -2.5px;
+  top: -6px;
   right: 120%;
   width: 30px;
   -webkit-transform: none;
